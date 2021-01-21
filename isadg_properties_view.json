@@ -239,7 +239,7 @@
         "displayName": "Notes Note",
         "prefix": "isadg",
         "namespace": "https://gist.github.com/anarchivist/826364",
-        "propertyName": "Notes/isadg:Note",
+        "propertyName": "isadg:NotesNote",
         "type": "Text",
         "options": "",
         "readOnly": false
