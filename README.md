@@ -16,7 +16,7 @@ Thanks a lot for your feedback !
 .
 
 ### **[dc_properties_view.json]**
-.
+. 
 
 ### **[isadg_properties_view.json]**
 ISAD(G) 2000 Standard
