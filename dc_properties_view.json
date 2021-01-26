@@ -84,7 +84,7 @@
         "namespace": "http://purl.org/dc/elements/1.1/",
         "propertyName": "language",
         "type": "MultiText",
-        "readOnly": false,
+        "readOnly": true,
         "dependencies": []
     },
     {
