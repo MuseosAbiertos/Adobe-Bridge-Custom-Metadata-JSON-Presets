@@ -6,7 +6,7 @@ Set of presets to read and write GLAM (Galleries, Libraries, Archives & Museums)
 
 Currently the DC, ISAD(G), Photoshop, xmpRights & VRA Essential XMP presets are published and soon I hope to create presets for EAD, DC, SPECTRUM, VRA & more.
 
-Thanks a lot for your feedback ! 
+Thanks a lot for your feedback !
 
 ---
 
