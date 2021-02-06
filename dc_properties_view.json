@@ -83,14 +83,9 @@
         "namespace": "http://purl.org/dc/elements/1.1/",
         "propertyName": "date",
         "type": "MultiText",
-<<<<<<< HEAD
-        "readOnly": true,
-        "dependencies": []
-=======
         "readOnly": false,
         "dependencies": [],
         "arrayType": "seq"
->>>>>>> upstream/main
     },
     {
         "id": "dc:type",
