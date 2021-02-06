@@ -6,6 +6,57 @@
         "dependencies": []
     },
     {
+        "id": "dc:title",
+        "displayName": "Title",
+        "namespace": "http://purl.org/dc/elements/1.1/",
+        "prefix": "dc",
+        "propertyName": "title",
+        "type": "Text",
+        "readOnly": false,
+        "dependencies": []
+    },
+    {
+        "id": "dc:creator",
+        "displayName": "Creator",
+        "prefix": "dc",
+        "namespace": "http://purl.org/dc/elements/1.1/",
+        "propertyName": "creator",
+        "type": "MultiText",
+        "readOnly": false,
+        "dependencies": [],
+        "arrayType": "seq"
+    },
+    {
+        "id": "dc:subject",
+        "displayName": "Subject",
+        "prefix": "dc",
+        "namespace": "http://purl.org/dc/elements/1.1/",
+        "propertyName": "subject",
+        "type": "MultiText",
+        "readOnly": false,
+        "dependencies": []
+    },
+    {
+        "id": "dc:description",
+        "displayName": "Description",
+        "namespace": "http://purl.org/dc/elements/1.1/",
+        "prefix": "dc",
+        "propertyName": "description",
+        "type": "Text",
+        "readOnly": false,
+        "dependencies": []
+    },
+    {
+        "id": "dc:publisher",
+        "displayName": "Publisher",
+        "prefix": "dc",
+        "namespace": "http://purl.org/dc/elements/1.1/",
+        "propertyName": "publisher",
+        "type": "MultiText",
+        "readOnly": false,
+        "dependencies": []
+    },
+    {
         "id": "dc:contributor",
         "displayName": "Contributor",
         "prefix": "dc",
@@ -26,34 +77,28 @@
         "dependencies": []
     },
     {
-        "id": "dc:creator",
-        "displayName": "Creator",
-        "prefix": "dc",
-        "namespace": "http://purl.org/dc/elements/1.1/",
-        "propertyName": "creator",
-        "type": "MultiText",
-        "readOnly": false,
-        "dependencies": [],
-        "arrayType": "seq"
-    },
-    {
         "id": "dc:date",
         "displayName": "Date",
         "prefix": "dc",
         "namespace": "http://purl.org/dc/elements/1.1/",
         "propertyName": "date",
         "type": "MultiText",
+<<<<<<< HEAD
+        "readOnly": true,
+        "dependencies": []
+=======
         "readOnly": false,
         "dependencies": [],
         "arrayType": "seq"
+>>>>>>> upstream/main
     },
     {
-        "id": "dc:description",
-        "displayName": "Description",
-        "namespace": "http://purl.org/dc/elements/1.1/",
+        "id": "dc:type",
+        "displayName": "Type",
         "prefix": "dc",
-        "propertyName": "description",
-        "type": "Text",
+        "namespace": "http://purl.org/dc/elements/1.1/",
+        "propertyName": "type",
+        "type": "MultiText",
         "readOnly": false,
         "dependencies": []
     },
@@ -65,46 +110,6 @@
         "propertyName": "format",
         "type": "Text",
         "readOnly": true,
-        "dependencies": []
-    },
-    {
-        "id": "dc:identifier",
-        "displayName": "Identifier",
-        "namespace": "http://purl.org/dc/elements/1.1/",
-        "prefix": "dc",
-        "propertyName": "identifier",
-        "type": "Text",
-        "readOnly": false,
-        "dependencies": []
-    },
-    {
-        "id": "dc:language",
-        "displayName": "Language",
-        "prefix": "dc",
-        "namespace": "http://purl.org/dc/elements/1.1/",
-        "propertyName": "language",
-        "type": "MultiText",
-        "readOnly": true,
-        "dependencies": []
-    },
-    {
-        "id": "dc:publisher",
-        "displayName": "Publisher",
-        "prefix": "dc",
-        "namespace": "http://purl.org/dc/elements/1.1/",
-        "propertyName": "publisher",
-        "type": "MultiText",
-        "readOnly": false,
-        "dependencies": []
-    },
-    {
-        "id": "dc:relation",
-        "displayName": "Relation",
-        "prefix": "dc",
-        "namespace": "http://purl.org/dc/elements/1.1/",
-        "propertyName": "relation",
-        "type": "MultiText",
-        "readOnly": false,
         "dependencies": []
     },
     {
@@ -128,32 +133,32 @@
         "dependencies": []
     },
     {
-        "id": "dc:subject",
-        "displayName": "Subject",
+        "id": "dc:language",
+        "displayName": "Language",
         "prefix": "dc",
         "namespace": "http://purl.org/dc/elements/1.1/",
-        "propertyName": "subject",
+        "propertyName": "language",
+        "type": "MultiText",
+        "readOnly": true,
+        "dependencies": []
+    },
+    {
+        "id": "dc:relation",
+        "displayName": "Relation",
+        "prefix": "dc",
+        "namespace": "http://purl.org/dc/elements/1.1/",
+        "propertyName": "relation",
         "type": "MultiText",
         "readOnly": false,
         "dependencies": []
     },
     {
-        "id": "dc:title",
-        "displayName": "Title",
+        "id": "dc:identifier",
+        "displayName": "Identifier",
         "namespace": "http://purl.org/dc/elements/1.1/",
         "prefix": "dc",
-        "propertyName": "title",
+        "propertyName": "identifier",
         "type": "Text",
-        "readOnly": false,
-        "dependencies": []
-    },
-    {
-        "id": "dc:type",
-        "displayName": "Type",
-        "prefix": "dc",
-        "namespace": "http://purl.org/dc/elements/1.1/",
-        "propertyName": "type",
-        "type": "MultiText",
         "readOnly": false,
         "dependencies": []
     }

@@ -4,7 +4,11 @@
 Set of presets to read and write GLAM (Galleries, Libraries, Archives & Museums) metadata & others, for "Custom Metadata Panel for Bridge" [https://github.com/adobe-dmeservices/custom-metadata]
 
 
+<<<<<<< HEAD
 Currently the DC, ISAD(G), Photoshop, xmpRights & VRA Essential XMP presets are published and soon I hope to create presets for EAD, DC, SPECTRUM, VRA & more.
+=======
+Currently the DC, ISAD(G), Photoshop, xmpRights & VRA Essential XMP presets are published and soon I hope to create presets for EAD, SPECTRUM & more.
+>>>>>>> upstream/main
 
 Thanks a lot for your feedback !
 
@@ -12,6 +16,22 @@ Thanks a lot for your feedback !
 
 ## Notes
 
+<<<<<<< HEAD
+=======
+
+### **[default_view.json]**
+
+This file is part of the 'Custom Metadata Panel for Bridge' Manual.
+
+* Extension: https://exchange.adobe.com/creativecloud.details.103752.html
+* User guide: https://github.com/adobe-dmeservices/custom-metadata/blob/master/User%20Guide.MD
+* Overview video: https://youtu.be/_IoMGJiEHss
+
+### **[core_properties_view.json]**
+This file helps to make it easier to build a custom view, a JSON file containing commonly used properties could be included in the app config folder, in the app user manual, or in a shared custom views page. This would save time looking up namespace, prefix, and field type.
+
+
+>>>>>>> upstream/main
 ### **[Iptc4xmpCore_properties_view.json]**
 IPTC Core schema 1.2
 
@@ -44,8 +64,11 @@ Documentation of the complete VRA Core standard can be found at http://www.loc.g
 
 ### **[xmpRights_properties_view.json]**
 .
+<<<<<<< HEAD
 ---
 ### **[default_view.json]**
 .
 ### **[core_properties_view.json]**
 .
+=======
+>>>>>>> upstream/main
