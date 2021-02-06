@@ -32,6 +32,11 @@ The namespace is "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" and the preferred
 Note that the IPTC Core schema also uses properties from the dc, xmpRights, and photoshop namespaces. This preset only contains Iptc4xmpCore properties.
 Documentation of the complete IPTC Core standard can be found at https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata#iptc-core-schema-1-2-specifications
 
+### **[cc_properties_view.json]**
+Creative Commons 4.0
+
+The namespace is "http://creativecommons.org/ns#" and the preferred prefix is "cc". In addition to the properties in the cc namespace, Creative Commons reccomends using xmpRights:Marked, xmpRights:WebStatement, xmpRights:UsageTerms. Documentation of the CC XMP implementation can be found at https://wiki.creativecommons.org/wiki/XMP Documentation of the Creative Commons licenses can be found at https://creativecommons.org/about/cclicenses/
+
 ### **[dc_properties_view.json]**
 Dublin Core Elements 1.1 Standard
 
