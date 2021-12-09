@@ -95,7 +95,7 @@
   },
   {
     "id": "vrae009",
-    "displayName": "Objeto Mediciones",
+    "displayName": "Objeto Mediidas",
     "prefix": "vrae",
     "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
     "propertyName": "work.measurements",
